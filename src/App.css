@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 105px;
-  width: 105px;
+
+  width: 95px;
+  height: 95px;
   pointer-events: none;
   margin-top: 10;
 }
@@ -61,3 +62,15 @@
   align-items: center;
   flex-direction: column;
 }
+
+
+@media (max-width: 480px){
+  .App-logo {
+
+    width: 70px;
+    height: 70px;
+    pointer-events: none;
+    margin-top: 10;
+  }
+
+};
