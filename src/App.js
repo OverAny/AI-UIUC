@@ -1,6 +1,6 @@
 import './App.css';
 import logo from "./images/logo2.png";
-import background from "./images/background.png";
+import background from "./images/backgroundLong.png";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 const url = "https://uiuc.us10.list-manage.com/subscribe/post?u=50dafeb09b4fb2ae36474db4c&amp;id=761087a979&amp;f_id=004630e2f0";
