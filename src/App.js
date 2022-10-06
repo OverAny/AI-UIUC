@@ -11,7 +11,7 @@ const SimpleForm = () => <MailchimpSubscribe url={url}/>
 function App() {
   return (
     <div className="App">
-      <header style={{backgroundImage: `url(${background})` , backgroundSize: "cover" }}className="App-header">
+      <header style={{backgroundImage: `url(${background})` , backgroundSize: "cover", backgroundPosition: "center" }}className="App-header">
         <div className='App-headerbar'>
             <div className='App-logodiv'>
               <img src={logo} className="App-logo" alt="logo" />
