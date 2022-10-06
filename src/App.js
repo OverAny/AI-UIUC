@@ -24,7 +24,8 @@ function App() {
             letterSpacing: 3,
             display: "inline-block"}} */}
           <p className="App-title">
-          Artificial Intelligence is Coming to Illinois
+          Artificial Intelligence <br/>
+          is Coming to Illinois
           </p>
 
 
