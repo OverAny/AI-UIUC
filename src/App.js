@@ -32,7 +32,7 @@ function App() {
           <MailchimpSubscribe
           url={url}
           render={({ subscribe, status, message }) => (
-            <div>
+            <div className="App-MailchimpStyle">
               <SimpleForm onSubmitted={formData => subscribe(formData)} />
               {/* {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
               {status === "error" && <div style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
