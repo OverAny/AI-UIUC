@@ -18,7 +18,12 @@ function App() {
             </div>
         </div>
           <div className="App-maindiv" style={{paddingBottom: 100}}>
-          <p style={{width: 1000, fontSize: 80, paddingBottom: 0, fontFamily: "Sansation-Light", fontWeight: 100, letterSpacing: 3}}>
+          {/* style={{width: 1000, fontSize: 80, paddingBottom: 0, 
+            fontFamily: "Sansation-Light", 
+            fontWeight: 100, 
+            letterSpacing: 3,
+            display: "inline-block"}} */}
+          <p className="App-title">
           Artificial Intelligence is Coming to Illinois
           </p>
 

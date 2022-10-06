@@ -21,6 +21,28 @@
   justify-content: left;
 }
 
+/* .App-title {
+  width: 1000;
+  font-size: 80;
+  padding-bottom: 0;
+  font-family: "Sansation-Light";
+  letter-spacing: 3;
+  display: inline-block;
+} */
+
+.App-title {
+  font-family: "Sansation-Light";
+  font-size:calc(18px + 5.5vw);
+  min-width: 400px;
+  max-width: 1000px;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: calc(150px - 7vw);
+  letter-spacing: 4;
+}
+
 
 .App-header {
   min-height: 100vh;
