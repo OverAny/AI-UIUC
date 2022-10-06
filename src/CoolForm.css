@@ -1,0 +1,32 @@
+
+  
+  .CF-input {
+    color: grey;
+    background-color: white;
+    margin: 6px;
+    border: 0px;
+    height: 32px;
+    width: 200px;
+    vertical-align: baseline;
+    padding-left: 10px;
+  }
+
+  .CF-button {
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    height: 34px;
+    width: 80px;
+    margin: 6px;
+    transition: background-color .4s ease-in;
+
+  }
+
+  .CF-button:hover {
+    /* transition: ; */
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+  }

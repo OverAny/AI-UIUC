@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
+import "./CoolForm.css"
 
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
@@ -16,14 +16,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         });
     
         return (
-        <div
-            style={{
-            background: "#efefef",
-            borderRadius: 2,
-            padding: 10,
-            display: "inline-block"
-            }}
-        >
+        <div className="">
             {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
             {status === "error" && (
             <div
@@ -37,22 +30,16 @@ const CustomForm = ({ status, message, onValidated }) => {
                 dangerouslySetInnerHTML={{ __html: message }}
             />
             )}
+
+
             <input
-            style={{ fontSize: "2em", padding: 5 }}
-            ref={node => (name = node)}
-            type="text"
-            placeholder="Your name"
-            />
-            <br />
-            <input
-            style={{ fontSize: "2em", padding: 5 }}
+            className="CF-input" 
             ref={node => (email = node)}
             type="email"
-            placeholder="Your email"
+            placeholder="your@example.com"
             />
-            <br />
-            <button style={{ fontSize: "2em", padding: 5 }} onClick={submit}>
-            Submit
+            <button className="CF-button" onClick={submit}>
+            Join
             </button>
         </div>
         );
