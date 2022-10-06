@@ -1,5 +1,5 @@
 import './App.css';
-import logo from "./images/1.png";
+import logo from "./images/logo.png";
 import background from "./images/Ronus__website_background_for_minimalist_website_portfolio_36e9e5b4-fd4b-4bb3-8e19-562b594d3c0b.png";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
@@ -12,26 +12,32 @@ function App() {
   return (
     <div className="App">
       <header style={{backgroundImage: `url(${background})` , backgroundSize: "cover" }}className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div style={{paddingBottom: 100}}>
-        <p style={{width: 1000, fontSize: 80, paddingBottom: 0}}>
-        Artificial Intelligence is Coming to Illinois
-        </p>
-
-
-        <MailchimpSubscribe
-        url={url}
-        render={({ subscribe, status, message }) => (
-          <div>
-            <SimpleForm onSubmitted={formData => subscribe(formData)} />
-            {/* {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-            {status === "error" && <div style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
-            {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>} */}
+        <div className='App-headerbar'>
+          <div className='App-outerLogoDiv'>
+            <div className='App-logodiv'>
+              <img src={logo} className="App-logo" alt="logo" />
+            </div>
           </div>
-        )}
-        />
+        </div>
+          <div className="App-maindiv" style={{paddingBottom: 100}}>
+          <p style={{width: 1000, fontSize: 80, paddingBottom: 0, fontFamily: "Sansation-Light", fontWeight: 100, letterSpacing: 3}}>
+          Artificial Intelligence is Coming to Illinois
+          </p>
 
-      </div>
+
+          <MailchimpSubscribe
+          url={url}
+          render={({ subscribe, status, message }) => (
+            <div>
+              <SimpleForm onSubmitted={formData => subscribe(formData)} />
+              {/* {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+              {status === "error" && <div style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
+              {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>} */}
+            </div>
+          )}
+          />
+
+        </div>
       </header>
     </div>
   );

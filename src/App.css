@@ -3,11 +3,22 @@
 }
 
 .App-logo {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 30vmin;
+  height: 105px;
+  width: 105px;
   pointer-events: none;
+  margin-top: 10;
+}
+
+.App-logodiv {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+
+.App-headerbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
 }
 
 
@@ -15,8 +26,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -25,3 +34,8 @@
   color: #61dafb;
 }
 
+.App-maindiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
