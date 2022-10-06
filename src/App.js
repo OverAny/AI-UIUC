@@ -1,6 +1,6 @@
 import './App.css';
 import logo from "./images/logo2.png";
-import background from "./images/backgroundLong.png";
+import background from "./images/backgroundLongTwo.png";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import CoolForm from "./CoolForm.js"
 
