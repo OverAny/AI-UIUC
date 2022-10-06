@@ -2,6 +2,7 @@ import './App.css';
 import logo from "./images/logo2.png";
 import background from "./images/backgroundLong.png";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
+import CoolForm from "./CoolForm.js"
 
 const url = "https://uiuc.us10.list-manage.com/subscribe/post?u=50dafeb09b4fb2ae36474db4c&amp;id=761087a979&amp;f_id=004630e2f0";
 
@@ -29,17 +30,7 @@ function App() {
           </p>
 
 
-          <MailchimpSubscribe
-          url={url}
-          render={({ subscribe, status, message }) => (
-            <div className="App-MailchimpStyle">
-              <SimpleForm onSubmitted={formData => subscribe(formData)} />
-              {/* {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-              {status === "error" && <div style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
-              {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>} */}
-            </div>
-          )}
-          />
+          <CoolForm/>
 
         </div>
       </header>

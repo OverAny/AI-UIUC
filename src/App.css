@@ -16,9 +16,9 @@
 }
 
 .App-MailchimpStyle button {
-  border: 1px;
+  border: 0px;
   color: grey;
-  background-color: white;
+  background-color: green;
   height: 32px;
   width: 32px;
   margin: 2px;
