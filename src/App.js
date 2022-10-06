@@ -13,11 +13,9 @@ function App() {
     <div className="App">
       <header style={{backgroundImage: `url(${background})` , backgroundSize: "cover" }}className="App-header">
         <div className='App-headerbar'>
-          <div className='App-outerLogoDiv'>
             <div className='App-logodiv'>
               <img src={logo} className="App-logo" alt="logo" />
             </div>
-          </div>
         </div>
           <div className="App-maindiv" style={{paddingBottom: 100}}>
           <p style={{width: 1000, fontSize: 80, paddingBottom: 0, fontFamily: "Sansation-Light", fontWeight: 100, letterSpacing: 3}}>
