@@ -1,5 +1,5 @@
 import './App.css';
-import logo from "./images/logo.png";
+import logo from "./images/logo2.png";
 import background from "./images/Ronus__website_background_for_minimalist_website_portfolio_36e9e5b4-fd4b-4bb3-8e19-562b594d3c0b.png";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
