@@ -35,8 +35,8 @@ const CustomForm = ({ status, message, onValidated }) => {
             {status === "success" && (
                 <div
                     style={{ fontSize: 20, color: "white" }}
-                    dangerouslySetInnerHTML={{ __html: message }}
-                />
+                    
+                >You have joined the mailing list!</div>
             )}
 
 
