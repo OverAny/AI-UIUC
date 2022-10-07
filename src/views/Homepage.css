@@ -29,12 +29,14 @@
     display: block;
     width: 220px;
     margin: 26px;
+    height: 34px;
     margin-right: 10px;
     /* padding-right: 80px; */
     text-decoration: none;
     color: white;
     font-family: "Sansation-Light";
     transition: color .4s ease-in;
+    font-size: 22px;
 }
 
 .HP-invovled-href:hover {
@@ -61,7 +63,7 @@
         margin-right: 0px;
         /* display: flex; */
         justify-content: left;
-        padding-right: 0px;
+        padding-right: 20px;
         margin-right: 0px;
         text-align: right;
         font-size: 18px;
@@ -71,7 +73,7 @@
     .HP-contact-a {
         text-align: right;
         font-size: 18px;
-        margin-right: 0px;
+        margin-right: 20px;
         margin-top: 0px;
         width: 150px;
         padding-right: 0px;
