@@ -18,7 +18,7 @@
 .App-headerbar {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-between;
 }
 
 /* .App-title {

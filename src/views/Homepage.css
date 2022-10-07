@@ -1,0 +1,51 @@
+
+
+.HP-header-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.HP-contact {
+    border: 0px;
+    font-family: "Sansation-Light";
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    height: 34px;
+    width: 80px;
+    margin-right: 50px;
+    margin-top: 24px;
+    transition: color .4s ease-in;
+    cursor: pointer;
+}
+
+.HP-contact:hover {
+
+    color: gray;
+}
+
+
+.HP-involved {
+    border: 0px;
+    font-family: "Sansation-Light";
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    height: 345x;
+    width: 80px;
+    transition: color .4s ease-in;
+    cursor: pointer;
+}
+
+.HP-involved:hover {
+
+    color: gray;
+}
+
+.HP-invovled-href{
+    display: block;
+    width: 80px;
+    height: 20px;
+    margin: 26px;
+    margin-right: 120px;
+}
