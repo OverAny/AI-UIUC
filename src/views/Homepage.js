@@ -29,10 +29,10 @@ function App() {
               href="https://illinois.campuslabs.com/engage/organization/ai"
               target="_blank"
             >
-              <button className="HP-involved">Involved@Illinois</button>
+              Involved@Illinois
             </a>
             <a className="HP-contact-a" href="mailto:team@uiuc.ai?subject=Subject&body=Body%20goes%20here">
-              <button className="HP-contact">Contact</button>
+              Contact
             </a>
           </div>
         </div>
