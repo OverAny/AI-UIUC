@@ -26,13 +26,14 @@
 
 
 .HP-involved {
+    text-align: left;
     border: 0px;
     font-family: "Sansation-Light";
     background-color: transparent;
     font-size: 22px;
     color: white;
     height: 345x;
-    width: 80px;
+    width: 156px;
     transition: color .4s ease-in;
     cursor: pointer;
 }
@@ -49,3 +50,50 @@
     margin: 26px;
     margin-right: 120px;
 }
+
+
+@media (max-width: 460px){
+
+    .HP-header-right {
+        width: 160px;
+    }
+
+    .HP-involved {
+        text-align: right;
+        font-size: 15px;
+    }
+
+    .HP-invovled-href{
+        display: block;
+        width: 150px;
+        height: 20px;
+        margin-top: 26px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        /* display: flex; */
+        justify-content: left;
+        padding-right: 10px;
+        margin-right: 0px;
+    }
+
+    .HP-contact-a {
+        margin-right: 0px;
+    }
+
+    .HP-contact {
+        text-align: right;
+        font-size: 15px;
+        margin-right: 0px;
+        margin-top: 0px;
+        width: 150px;
+        padding-right: 9px;
+        padding-top: 10px;
+    }
+
+
+    .HP-header-right {
+        flex-direction: column;
+    }
+  
+  }

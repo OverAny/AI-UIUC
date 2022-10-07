@@ -31,7 +31,7 @@ function App() {
             >
               <button className="HP-involved">Involved@Illinois</button>
             </a>
-            <a href="mailto:team@uiuc.ai?subject=Subject&body=Body%20goes%20here">
+            <a className="HP-contact-a" href="mailto:team@uiuc.ai?subject=Subject&body=Body%20goes%20here">
               <button className="HP-contact">Contact</button>
             </a>
           </div>
