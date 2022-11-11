@@ -1,8 +1,12 @@
-import React, { Component } from "react";
+import React, { Component, Link } from "react";
 import "./CoolForm.css"
 
-import MailchimpSubscribe from "react-mailchimp-subscribe"
+// import MailchimpSubscribe from "react-mailchimp-subscribe"
 
+
+const submit = () => {
+
+}
 
 const CustomForm = ({ status, message, onValidated }) => {
     let email;
@@ -47,26 +51,10 @@ const CustomForm = ({ status, message, onValidated }) => {
 
 class CoolForm extends Component {
     render() {
-        const url =
-            "https://uiuc.us10.list-manage.com/subscribe/post?u=50dafeb09b4fb2ae36474db4c&amp;id=761087a979&amp;f_id=004630e2f0";
         return (
-            <div>
-
-                <MailchimpSubscribe
-                    url={url}
-
-                    render={({ subscribe, status, message }) => (
-                        <div>
-                            <CustomForm
-                                status={status}
-                                message={message}
-                                onValidated={formData => subscribe(formData)}
-                            />
-                        </div>
-                    )}
-
-                />
-            </div>
+            <a href= "https://aiuiuc.substack.com/" target="_blank">
+                <button className="CF-button" onClick={submit}>Join Newsletter</button>
+            </a>
         );
     }
 }

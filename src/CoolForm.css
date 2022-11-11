@@ -15,10 +15,10 @@
     border: 3px;
     border-color: white;
     border-style: solid;
-    background-color: transparent;
+    background-color: rgba(149, 149, 149, 0.2);
     color: white;
     height: 34px;
-    width: 80px;
+    width: 180px;
     margin: 6px;
     transition: background-color .4s ease-in;
 
