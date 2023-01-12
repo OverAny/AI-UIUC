@@ -5,7 +5,7 @@ class Join extends Component {
     render() {
         return (
             <a href= "https://aiuiuc.substack.com/" target="_blank">
-                <button className="join-button">Join Newsletter</button>
+                <button className="join-button">Newsletter</button>
             </a>
         );
     }

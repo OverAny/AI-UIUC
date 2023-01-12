@@ -9,6 +9,7 @@ import {
 
 import Homepage from "./views/Homepage";
 import About from "./views/About";
+import Apply from "./views/Apply";
 import "./App.css"
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
                 <Routes>
                     <Route exact path="/" element={<Homepage/>} />
                     <Route exact path="about" element={<About/>} />
+                    <Route exact path="apply" element={<Apply/>} />
                 </Routes>
         </Router>
     </div>

@@ -1,0 +1,160 @@
+.Header-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Header-logo {
+
+    width: 95px;
+    height: 95px;
+    pointer-events: none;
+    margin-top: 10;
+  }
+  
+  .Header-logodiv {
+    margin-left: 30px;
+    padding-top: 30px;
+  }
+
+  .Header-right {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Header-contact-a {
+    border: 0px;
+    text-decoration: none;
+    font-family: "Sansation-Light";
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    height: 34px;
+    width: 80px;
+    margin-right: 50px;
+    margin-top: 26px;
+    transition: color .4s ease-in;
+    cursor: pointer;
+}
+.Header-contact-a:hover {
+
+    color: gray;
+}
+
+.Header-invovled-href {
+    display: block;
+    width: 80px;
+    margin: 26px;
+    height: 34px;
+    margin-right: 16px;
+    margin-left: 0px;
+    /* padding-right: 80px; */
+    text-decoration: none;
+    color: white;
+    font-family: "Sansation-Light";
+    transition: color .4s ease-in;
+    font-size: 22px;
+}
+.Header-invovled-href:hover {
+    color: gray;
+}
+
+.Header-about-link {
+    border: 0px;
+    text-decoration: none;
+    font-family: "Sansation-Light";
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    height: 34px;
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 26px;
+    transition: color .4s ease-in;
+    cursor: pointer;
+}
+.Header-about-link:hover {
+    color: gray;
+}
+
+.Header-apply-link {
+    border: 0px;
+    text-decoration: none;
+    font-family: "Sansation-Light";
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    height: 34px;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 26px;
+    transition: color .4s ease-in;
+    cursor: pointer;
+}
+.Header-apply-link:hover {
+    color: gray;
+}
+
+
+.Header-discord-button {
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    background-color: rgba(149, 149, 149, 0.2);
+    color: white;
+    height: 34px;
+    width: 180px;
+    margin: 6px;
+    transition: background-color .4s ease-in;
+
+  }
+  .Header-discord-button:hover {
+    /* transition: ; */
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+  }
+
+
+@media (max-width: 480px){
+
+    .Header-header-right {
+        width: 160px;
+    }
+
+
+
+    .Header-invovled-href{
+        display: block;
+        width: 140px;
+        height: 20px;
+        margin-top: 26px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        /* display: flex; */
+        justify-content: left;
+        padding-right: 0px;
+        margin-right: 200px;
+        text-align: right;
+        font-size: 18px;
+    }
+
+
+    .Header-contact-a {
+        text-align: right;
+        font-size: 18px;
+        margin-right: 200px;
+        margin-top: 0px;
+        width: 140px;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+
+
+    .Header-right {
+        flex-direction: column;
+    }
+  
+  }

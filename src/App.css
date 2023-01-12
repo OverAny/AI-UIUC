@@ -2,25 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-
-  width: 95px;
-  height: 95px;
-  pointer-events: none;
-  margin-top: 10;
-}
-
-.App-logodiv {
-  margin-left: 30px;
-  padding-top: 30px;
-}
-
-.App-headerbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 /* .App-title {
   width: 1000;
   font-size: 80;
@@ -32,9 +13,9 @@
 
 .App-title {
   font-family: "Sansation-Light";
-  font-size:calc(9px + 7.11vw);
-  min-width: 260px;
-  max-width: 800px;
+  font-size:calc(7px + 5.51vw);
+  min-width: 280px;
+  max-width: 1000px;
   padding-bottom: 0;
   margin-bottom: 30px;
   padding-right: 10px;
@@ -79,7 +60,7 @@
     font-family: "Sansation-Light";
     font-size: 80px;
     min-width: 260px;
-    max-width: 800px;
+    max-width: 1000px;
     padding-bottom: 0;
     margin-bottom: 30px;
     padding-right: 10px;
