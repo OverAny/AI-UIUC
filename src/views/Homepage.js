@@ -3,12 +3,12 @@ import "./Homepage.css";
 import logo from "./../images/logo2.png";
 import background from "./../images/backgroundLongTwo.png";
 import { Link } from "react-router-dom";
-import CoolForm from "./../CoolForm.js";
+import CoolForm from "../components/Join.js";
 
 const url =
   "https://uiuc.us10.list-manage.com/subscribe/post?u=50dafeb09b4fb2ae36474db4c&amp;id=761087a979&amp;f_id=004630e2f0";
 
-function App() {
+function Homepage() {
   return (
     <div className="App">
       <header
@@ -20,16 +20,32 @@ function App() {
         className="App-header"
       >
         <div className="App-headerbar">
-          <div className="App-logodiv">
-            <img src={logo} className="App-logo" alt="logo" />
-          </div>
+          <Link to="/">
+            <div className="App-logodiv">
+              <img src={logo} className="App-logo" alt="logo" />
+            </div>
+          </Link>
           <div className="HP-header-right">
+
+            <Link
+              className="HP-about-link"
+              to="/about"
+            >
+              About
+            </Link>
             <a
-              className="HP-invovled-href"
-              href="https://illinois.campuslabs.com/engage/organization/ai"
+              className="HP-apply-link"
+              href="https://google.com"
               target="_blank"
             >
-              Involved@Illinois
+              Apply
+            </a>
+            <a
+              className="HP-invovled-href"
+              href="https://linktr.ee/aiatuiuc/"
+              target="_blank"
+            >
+              Links
             </a>
             <a className="HP-contact-a" href="mailto:team@uiuc.ai?subject=Subject&body=Body%20goes%20here">
               Contact
@@ -47,7 +63,13 @@ function App() {
             is Coming to Illinois
           </p>
 
-          <CoolForm />
+          <div className="HP-newsletter-discord">
+            <CoolForm />
+
+            <a href= "https://discord.gg/5tS2rPCHpX" target="_blank">
+                  <button className="HP-discord-button">Join Community</button>
+            </a>
+          </div>
 
         </div>
       </header>
@@ -55,4 +77,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;

@@ -27,10 +27,11 @@
 
 .HP-invovled-href {
     display: block;
-    width: 220px;
+    width: 80px;
     margin: 26px;
     height: 34px;
-    margin-right: 10px;
+    margin-right: 16px;
+    margin-left: 0px;
     /* padding-right: 80px; */
     text-decoration: none;
     color: white;
@@ -43,6 +44,69 @@
     color: gray;
 }
 
+.HP-about-link {
+    border: 0px;
+    text-decoration: none;
+    font-family: "Sansation-Light";
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    height: 34px;
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 26px;
+    transition: color .4s ease-in;
+    cursor: pointer;
+}
+
+.HP-about-link:hover {
+    color: gray;
+}
+
+.HP-apply-link {
+    border: 0px;
+    text-decoration: none;
+    font-family: "Sansation-Light";
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    height: 34px;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 26px;
+    transition: color .4s ease-in;
+    cursor: pointer;
+}
+
+.HP-apply-link:hover {
+    color: gray;
+}
+
+.HP-newsletter-discord {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.HP-discord-button {
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    background-color: rgba(149, 149, 149, 0.2);
+    color: white;
+    height: 34px;
+    width: 180px;
+    margin: 6px;
+    transition: background-color .4s ease-in;
+
+  }
+
+  .HP-discord-button:hover {
+    /* transition: ; */
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+  }
 
 
 @media (max-width: 480px){
