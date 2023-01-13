@@ -109,7 +109,7 @@ function Homepage() {
               <CoolForm />
 
               <a href= "https://discord.gg/5tS2rPCHpX" target="_blank">
-                    <button className="HP-discord-button">Community</button>
+                    <button className="HP-discord-button">Discord</button>
               </a>
             </div>
 
