@@ -15,11 +15,21 @@ class Header extends Component {
             </Link>
 
             <div className="Header-right">
-                <Link 
-                className="Header-about-link"
-                to="/about">
+                <a 
+                    className="Header-about-link"
+                    href="https://aiuiuc.substack.com/p/ai-uiuc-rso-information"
+                    target="_blank"
+                >
                     About
-                </Link>
+                </a>
+
+                <a 
+                    className="Header-team-link"
+                    href="https://aiuiuc.substack.com/p/2023-advisors-executive-team"
+                    target="_blank"
+                >
+                    Team
+                </a>
                 
                 <Link
                     className="Header-apply-link"

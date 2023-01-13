@@ -20,6 +20,7 @@
   .Header-right {
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 
 
@@ -75,6 +76,24 @@
     cursor: pointer;
 }
 .Header-about-link:hover {
+    color: gray;
+}
+
+.Header-team-link {
+    border: 0px;
+    text-decoration: none;
+    font-family: "Sansation-Light";
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    height: 34px;
+    width: 80px;
+    margin-right: 5px;
+    margin-top: 26px;
+    transition: color .4s ease-in;
+    cursor: pointer;
+}
+.Header-team-link:hover {
     color: gray;
 }
 

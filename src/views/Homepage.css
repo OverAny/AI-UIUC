@@ -24,4 +24,61 @@
     cursor: pointer;
   }
 
+  .HP-title {
+    font-family: "Sansation-Light";
+    font-size:calc(7px + 5.51vw);
+    min-width: 280px;
+    max-width: 1000px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: calc(142px - 7vw);
+    letter-spacing: 4;
+  }
 
+  .HP-comment {
+    font-family: "Sansation-Light";
+    font-size: 20px;
+    min-width: 280px;
+    max-width: 1000px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    letter-spacing: 4;
+    /* font-weight:600; */
+    /* text-decoration-line: underline; */
+    font-style: italic;
+  }
+
+
+  @media only screen and (min-width: 1000px) {
+    .HP-title {
+      font-family: "Sansation-Light";
+      font-size: 80px;
+      min-width: 260px;
+      max-width: 1000px;
+      padding-bottom: 0;
+      margin-bottom: 0px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-top: 70px;
+      letter-spacing: 4;
+    }
+
+    .HP-comment {
+        font-family: "Sansation-Light";
+        font-size: 25px;
+        min-width: 280px;
+        max-width: 1000px;
+        padding-bottom: 0;
+        margin-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: 20px;
+        letter-spacing: 4;
+    }
+  
+  }

@@ -1,29 +1,81 @@
 import "./../App.css";
 import "./Homepage.css";
-import "./About.css";
+import "./Apply.css";
 import background from "./../images/backgroundLongTwo.png";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react';
 import Header from "../components/Header.js";
+import BurgHeader from "../components/BurgerHeader";
 
 function Apply() {
-    return (
-        <div className="App">
-            <body
-                style={{
-                    backgroundImage: `url(${background})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                }}
-                className="App-header"
-            >
+    const [width, setWidth] = useState(window.innerWidth);
 
-                <Header/>
+    function handleWindowSizeChange() {
+        setWidth(window.innerWidth);
+    }
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleWindowSizeChange);
+        }
+    }, []);
+  
+    const isMobile = width <= 768;
 
+    if (isMobile) {
+        return (
+            <div className="App">
+                <body
+                    style={{
+                        backgroundImage: `url(${background})`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                    }}
+                    className="App-header"
+                >
 
-            </body>
-            
-        </div>
-    );
+                    <BurgHeader/>
+                    <div className="App-maindiv" style={{ paddingBottom: 100 }}>
+
+                        <div className="Apply-message">
+                        {/* Artificial Intelligence <br />
+                        is Coming to Illinois */}
+                        Applications are<br />
+                        Currently Closed.
+                        </div>
+                    </div>
+
+                </body>
+                
+            </div>
+        );
+    } else {
+        return (
+            <div className="App">
+                <body
+                    style={{
+                        backgroundImage: `url(${background})`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                    }}
+                    className="App-header"
+                >
+
+                    <Header/>
+                    <div className="App-maindiv" style={{ paddingBottom: 100 }}>
+
+                        <div className="Apply-message">
+                        {/* Artificial Intelligence <br />
+                        is Coming to Illinois */}
+                        Applications are<br />
+                        Currently Closed.
+                        </div>
+                    </div>
+
+                </body>
+                
+            </div>
+        );
+    }
 
 }
 

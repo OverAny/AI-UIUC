@@ -19,7 +19,7 @@ export default function App() {
         <Router>
                 <Routes>
                     <Route exact path="/" element={<Homepage/>} />
-                    <Route exact path="about" element={<About/>} />
+                    {/* <Route exact path="about" element={<About/>} /> */}
                     <Route exact path="apply" element={<Apply/>} />
                 </Routes>
         </Router>
