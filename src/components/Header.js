@@ -30,12 +30,20 @@ class Header extends Component {
                 >
                     Team
                 </a>
-                
-                <Link
+
+                {/* USE WHEN APPLICATIONS ARE CLOSED */}
+                {/* <Link
                     className="Header-apply-link"
                     to="/apply">
                     Apply
-                </Link>
+                </Link> */}
+                <a
+                    className="Header-apply-link"
+                    href="https://docs.google.com/forms/d/1LqjQPBAnmPNEVkCbzryONDYSJDnqniYL9gFgQI4xHCQ/closedform"
+                    target="_blank"
+                    >
+                    Apply
+                </a>
                 <a
                     className="Header-invovled-href"
                     href="https://linktr.ee/aiatuiuc/"
